@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.scss">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>GreenFood</title>
+</head>
+
+<body>
+  <div class="container-slider">
+    <header class="header" id="navbar">
+      <a class="header__logo" href="/">Good <span>Foods</span></a>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link active" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      </ul>
+      <span class="menu-icon"></span>
+    </header>
+    <div class="content banner">
+      <div class="banner__text" id="slideShowText">
+        <div class="active">
+          <h2>EAT Healthy <br> Stay Healthy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo pariatur vitae consequatur dolore,
+            consequuntur optio. Qui nisi porro, numquam recusandae harum ab architecto saepe, quo aut obcaecati nemo ea.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div>
+          <h2>EAT Your <br> Veggies</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo pariatur vitae consequatur dolore,
+            consequuntur optio. Qui nisi porro, numquam recusandae harum ab architecto saepe, quo aut obcaecati nemo ea.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div>
+          <h2>Good FOOD<br> Good MOOD</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo pariatur vitae consequatur dolore,
+            consequuntur optio. Qui nisi porro, numquam recusandae harum ab architecto saepe, quo aut obcaecati nemo ea.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="banner__image" id="slide-show">
+        <img class="active" src="./img/pexels-photo-1211887.jpeg">
+        <img src="./img/pexels-photo-1988624.jpeg">
+        <img src="./img/pexels-photo-2862154.jpeg">
+      </div>
+    </div>
+    <div class="icons">
+      <ul class="icons__social">
+        <li class="icons__item"><a class="icons__img"><img src="./img/facebook-logo-108.svg" alt=""></a></li>
+        <li class="icons__item"><a class="icons__img"><img src="./img/twitter.svg" alt=""></a></li>
+        <li class="icons__item"><a class="icons__img"><img src="./img/instagram.svg" alt=""></a></li>
+      </ul>
+      <ul class="control">
+        <li class="control__arrow">
+          <div class="icons__img">
+            <img src="./img/arrow-233.svg" id="prev-slide">
+          </div>
+        </li>
+        <li class="control__arrow">
+          <div class="icons__img">
+            <img src="./img/arrow-232.svg" id="next-slide">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

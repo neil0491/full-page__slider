@@ -1,0 +1,30 @@
+{
+  "name": "greenfood",
+  "version": "1.0.0",
+  "description": "responsive website",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --no-source-maps --no-minify --public-url ./"
+  },
+  "author": "Neil",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^7.0.35",
+    "sass": "^1.32.8"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "overrideBrowserslist": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "ie >= 11"
+        ]
+      }
+    }
+  }
+}
